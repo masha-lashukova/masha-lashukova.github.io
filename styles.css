@@ -1,0 +1,27 @@
+body {
+  height: 100%;
+  background-color: #dde4e0;
+}
+
+#container {
+  padding: 15% 0;
+}
+
+#name {
+  font-size: 4em;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#social {
+  font-size: 3em;
+  text-align: center;
+}
+
+.fa-vk {
+  color: #2a5885;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
