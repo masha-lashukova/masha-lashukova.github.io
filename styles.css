@@ -4,18 +4,20 @@ body {
 }
 
 #container {
-  padding: 15% 0;
+  padding: 7% 0;
+}
+
+#container>* {
+  text-align: center;
 }
 
 #name {
   font-size: 4em;
-  text-align: center;
   font-family: sans-serif;
 }
 
 #social {
   font-size: 3em;
-  text-align: center;
 }
 
 .fa-vk {
@@ -24,4 +26,11 @@ body {
 
 .fa-facebook {
   color: #3b5998;
+}
+
+#logo {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
