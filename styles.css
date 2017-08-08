@@ -3,11 +3,11 @@ body {
   background-color: #dde4e0;
 }
 
-#container {
+/*#content {
   padding: 7% 0;
-}
+}*/
 
-#container>* {
+#content>* {
   text-align: center;
 }
 
@@ -38,4 +38,17 @@ body {
   object-fit: cover;
   width: 230px;
   height: 230px;
+}
+
+#menu {
+  text-align: right;
+  padding: 2em 7em;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#menu > a {
+  text-decoration: none;
+  color: black;
 }
