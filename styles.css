@@ -54,6 +54,12 @@ body {
   color: black;
 }
 
+#articles .article-item {
+  display: inline-block;
+  width: 230px;
+  margin: 25px;
+}
+
 #articles .article-item img {
   display: block;
   margin-left: auto;
@@ -64,4 +70,10 @@ body {
   object-fit: cover;
   width: 230px;
   height: 230px;
+}
+
+#articles .article-item a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
